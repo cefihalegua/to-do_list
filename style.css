@@ -9,69 +9,69 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .app{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
 
 }
 .header {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .logo {
-    height: 50px;
+  height: 50px;
 }
 .input-area {
-    margin-top: 15px;
-    display: flex;
-    min-width: 50vw;
+  margin-top: 15px;
+  display: flex;
+  min-width: 50vw;
 }
 h2 {
-    text-align: center;
+  text-align: center;
 }
 .delete {
-    margin-left: 15px;
-    height: 20px;
-    width: 20px;
+  margin-left: 15px;
+  height: 20px;
+  width: 20px;
 }
 .star {
-    margin-left: 15px;
-    height: 20px;
-    width: 20px;
+  margin-left: 15px;
+  height: 20px;
+  width: 20px;
 }
 .listitems {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 ul {
-    font-size: 20px;
-    padding-top: 10px;
-    margin-top: -10px;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-top: -10px;
 }
 .done li:before{
-    content: '  ';
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    background-image: url("./images/tick.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-bottom: -5px;
-    margin-right: 10px;
+  content: '  ';
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-image: url("./images/tick.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  margin-right: 10px;
 
  }
  .done ul {
-     list-style: none;
-     padding-left: 20px;
+  list-style: none;
+  padding-left: 20px;
  }
 * {
   box-sizing: border-box;
 }
 .inp {
-    min-width: 35vw;
+  min-width: 35vw;
   position: relative;
   margin: auto;
   width: 100%;
@@ -155,8 +155,8 @@ ul {
 	font-weight:bold;
 	padding:12px 16px;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #ffffff;
-    margin: 15px;
+  text-shadow:0px 1px 0px #ffffff;
+  margin: 15px;
 }
 .myButton:hover {
 	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));

@@ -142,7 +142,6 @@ class List extends React.Component {
     }
 
     star(event) {
-        debugger;
         var listType = event.target.getAttribute("data-list");
         var text = event.target.getAttribute("data-text");
         this.props.star(text, listType);
